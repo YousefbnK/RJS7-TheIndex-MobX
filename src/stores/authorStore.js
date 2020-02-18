@@ -42,6 +42,7 @@ decorate(AuthorStore, {
 });
 
 const authorStore = new AuthorStore();
+// console.log(authorStore);
 authorStore.fetchAuthors();
 
 export default authorStore;

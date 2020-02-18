@@ -13,6 +13,7 @@ const AuthorList = () => {
     <AuthorCard key={author.id} author={author} />
   ));
 
+  console.log("Query", authorStore.query);
   return (
     <div>
       <h3>Authors</h3>
